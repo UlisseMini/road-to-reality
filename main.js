@@ -147,7 +147,7 @@ function remarkNoInlineDoubleDollar() {
 }
 
 // convert "Hello World" -> hello-world
-const pageResolver = (name) => name.toLowerCase().replace(/ /g, "-");
+export const pageResolver = (name) => name.toLowerCase().replace(/ /g, "-");
 
 // convert a/b/notes/c/d -> a/b/out/c/d
 const notesToOutPath = (p) => path.join("out", path.relative("notes", p));
