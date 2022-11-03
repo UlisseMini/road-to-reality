@@ -57,8 +57,8 @@ async function compile(file) {
 
   // Relative path to root, needed to handle the root being user.github.io/project
   // notes/a/b.md => depth = 1, notes/a.md => depth = 0
-  const depth = file.path.split("/").reverse().lastIndexOf("notes") - 1;
-  const root = "../".repeat(depth);
+  // const depth = file.path.split("/").reverse().lastIndexOf("notes") - 1;
+  const root = "https://uli.rocks/penrose/";
 
   return await unified()
     .use(remarkParse)
