@@ -75,6 +75,7 @@ async function compile(file) {
     .use(rehypeKatex)
     .use(rehypeDocument, {
       title: fm.attributes.title || file.stem,
+      js: [root + "main.js"],
       css: [
         root + "styles.css",
         root + "highlight.css",
