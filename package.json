@@ -1,0 +1,32 @@
+{
+  "name": "oth",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "author": "Ulisse Mini <ulisse.mini@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node main.js"
+  },
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "fs-extra": "^10.0.0",
+    "highlight.js": "^11.4.0",
+    "katex": "^0.15.2",
+    "klaw": "^4.0.1",
+    "rehype-document": "^6.0.1",
+    "rehype-highlight": "^5.0.2",
+    "rehype-katex": "^6.0.2",
+    "rehype-raw": "^6.1.1",
+    "rehype-stringify": "^9.0.3",
+    "remark-math": "^5.1.1",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "remark-wiki-link": "^1.0.4",
+    "to-vfile": "^7.2.3",
+    "unified": "^10.1.1",
+    "unist-util-is": "^5.1.1",
+    "unist-util-visit": "^4.1.0",
+    "vfile-reporter": "^7.0.3"
+  }
+}
